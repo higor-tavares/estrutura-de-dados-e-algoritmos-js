@@ -6,5 +6,5 @@ filaDoPao.enqueue("Dona maria");
 filaDoPao.enqueue("Seu araújo");
 console.log("O PÃO FICOU PRONTO!!!");
 while(!filaDoPao.isEmpty()){
-    console.log(`Atendendo o client ${filaDoPao.dequeue()}`);
+    console.log(`Atendendo o client ${filaDoPao.dequeue()} ainda faltam ${filaDoPao.size()}`);
 }
